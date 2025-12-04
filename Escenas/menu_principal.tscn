@@ -42,8 +42,8 @@ expand_mode = 1
 layout_mode = 1
 offset_left = 1167.0
 offset_top = 121.0
-offset_right = 1167.64
-offset_bottom = 121.32
+offset_right = 1188.677
+offset_bottom = 121.32001
 
 [node name="TextureButton2" type="TextureButton" parent="."]
 layout_mode = 0
