@@ -15,7 +15,7 @@ func _ready():
 	$btn_random.mouse_default_cursor_shape = Control.CURSOR_ARROW
 	$candado.visible = true
 	verificar_progreso(Global.rutaArchivos + "/Progress/progressMinigames.dat")
-
+	
 func actualizar_candados(progreso):
 	# Solo desbloqueamos Random si se cumplen los requisitos
 	if progreso["puzzle"]["hard"] and progreso["match"]["hard"] and progreso["order"]["hard"]:

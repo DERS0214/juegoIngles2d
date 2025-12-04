@@ -7,7 +7,7 @@
 [ext_resource type="Texture2D" uid="uid://dq36wtcvmsnow" path="res://Sprites/buttons/btn_entendido_hover.png" id="5_ujwqs"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_xhwhr"]
-font_size = 50
+font_size = 48
 outline_size = 4
 
 [sub_resource type="LabelSettings" id="LabelSettings_ujwqs"]
@@ -42,7 +42,7 @@ texture = ExtResource("3_tablero")
 layout_mode = 0
 offset_left = 337.0
 offset_top = 250.0
-offset_right = 937.0
+offset_right = 960.0
 offset_bottom = 350.0
 theme_override_fonts/font = ExtResource("2_font")
 theme_override_font_sizes/font_size = 48
@@ -66,18 +66,11 @@ vertical_alignment = 1
 autowrap_mode = 3
 
 [node name="ButtonCerrar" type="TextureButton" parent="."]
-layout_mode = 1
-anchors_preset = 8
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-offset_left = -109.5
-offset_top = 67.0
-offset_right = 114.5
-offset_bottom = 139.0
-grow_horizontal = 2
-grow_vertical = 2
+layout_mode = 0
+offset_left = 536.0
+offset_top = 520.0
+offset_right = 760.0
+offset_bottom = 592.0
 mouse_default_cursor_shape = 2
 texture_normal = ExtResource("4_xhwhr")
 texture_hover = ExtResource("5_ujwqs")
